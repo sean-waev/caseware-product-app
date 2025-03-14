@@ -22,12 +22,3 @@
     min-width: 300px;
   }
 
-  .pill:hover {
-    background-color: color-mix(in srgb, oklch(51.01% 0.274 263.83) 10%, transparent); 
-    cursor: pointer; 
-}
-
-.mainTitle {
-
-    color: oklch(51.01% 0.274 263.83);
-}
