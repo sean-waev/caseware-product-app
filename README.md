@@ -81,12 +81,18 @@ Once the server is running, open your browser and navigate to `http://localhost:
     ```
     - Accept a product object via @Input().
     ```
-    product data input is set via @Input() in 'product-list-single-pill.component.ts' on lines 11 & 12 and accepted in 'product-list.component.html' on lines 5 & 6
+    product data input is set via @Input() in 'product-list-single-pill.component.ts'
+    
+     on lines 11 & 12 and accepted in 'product-list.component.html' on lines 5 & 6
     ```
 
     - Add a button that emits an event (@Output()) when clicked.
     ```
-    the buttonClick function that emits an event (@Output()) is in 'product-card-component.ts' on line 29 and the output is the string 'message' on line 33
+    the buttonClick function that emits an event (@Output()) is in 
+    
+    'product-card-component.ts' on line 29 and the output is the 
+    
+    string 'message' on line 33
     ```
 
 3. Service & Data Handling (30 points)
@@ -104,7 +110,9 @@ Once the server is running, open your browser and navigate to `http://localhost:
     - Use Observable (RxJS) in ProductService for asynchronous data fetching.
 
     ```
-    Observable (RxJS) is used in the ProductService for asynchronous data fetching in 'product. service.ts' on line 21
+    Observable (RxJS) is used in the ProductService for 
+    
+    asynchronous data fetching in 'product. service.ts' on line 21
     ```
 
 4. Routing & Navigation (30 points)
@@ -120,8 +128,13 @@ Once the server is running, open your browser and navigate to `http://localhost:
     ```
 
     - Clicking a product in ProductListComponent should navigate to /products/:id and display its details.
+
     ```
-    this is complete via navigation in 'product-list.component.html' on line 4, the  ngOnInit() in 'product-card-component.ts' on line 21, and getProductById() in 'product.service.ts' on line 25
+    this is complete via navigation in 'product-list.component.html' 
+    
+    on line 4, the  ngOnInit() in 'product-card-component.ts' on 
+    
+    line 21, and getProductById() in 'product.service.ts' on line 25
     ```
 
 ## Additional Resources
