@@ -4,7 +4,7 @@ This project was generated using [Angular CLI](https://github.com/angular/angula
 
 ## Install Prerequisites
 
-Ensure you have the following installed on your machine:
+Ensure you have the following installed on your machine
 
     git
 
