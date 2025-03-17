@@ -4,7 +4,7 @@ This is the Angular Developer Technical Assessment Application that displays a l
 
 Below is brief documentation on how to run the application locally.
 
-There is also a rubric for the Assessment guidelines at the bottom to easily navigate to where each guideline is addressed in the code.
+There is also a rubric for the Assessment guidelines at the bottom to easily navigate where each guideline is addressed in the code.
 
 There is also brief documentation in the comments within the code.
 
