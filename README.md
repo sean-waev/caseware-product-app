@@ -65,6 +65,8 @@ Once the server is running, open your browser and navigate to `http://localhost:
 
 ## Assignment Rubric
 
+Here is the brief rubric for the Assessment guidelines.
+
 1. Project Setup (10 points)
 
     - Create a new Angular project using Angular CLI (ng new product-app).
@@ -75,18 +77,18 @@ Once the server is running, open your browser and navigate to `http://localhost:
 
 2. Component & Data Binding (30 points)
 
-    - Create a ProductCardComponent that displays product details (name, price, description).
+    - Create a ProductCardComponent that displays product details (name, price, description):
     ```
     this component is complete in the folder `src/app/product-card`
     ```
-    - Accept a product object via @Input().
+    - Accept a product object via @Input():
     ```
     product data input is set via @Input() in 'product-list-single-pill.component.ts'
     
      on lines 11 & 12 and accepted in 'product-list.component.html' on lines 5 & 6
     ```
 
-    - Add a button that emits an event (@Output()) when clicked.
+    - Add a button that emits an event (@Output()) when clicked:
     ```
     the buttonClick function that emits an event (@Output()) is in 
     
@@ -97,17 +99,17 @@ Once the server is running, open your browser and navigate to `http://localhost:
 
 3. Service & Data Handling (30 points)
 
-    - Create a ProductService that provides product data (hardcoded or from a mock JSON file).
+    - Create a ProductService that provides product data (hardcoded or from a mock JSON file):
     ```
     this service is complete in the file `src/app/services/product.service.ts`
     ```
 
-    - Fetch and display products in a ProductListComponent.
+    - Fetch and display products in a ProductListComponent:
     ```
     this component is complete in the folder `src/app/product-list`
     ```
 
-    - Use Observable (RxJS) in ProductService for asynchronous data fetching.
+    - Use Observable (RxJS) in ProductService for asynchronous data fetching:
 
     ```
     Observable (RxJS) is used in the ProductService for 
@@ -127,7 +129,7 @@ Once the server is running, open your browser and navigate to `http://localhost:
     these routes can be found in `src/app/app.routes.ts` on lines 7 & 8
     ```
 
-    - Clicking a product in ProductListComponent should navigate to /products/:id and display its details.
+    - Clicking a product in ProductListComponent should navigate to /products/:id and display its details:
 
     ```
     this is complete via navigation in 'product-list.component.html' 
