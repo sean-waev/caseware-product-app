@@ -6,11 +6,18 @@ This project was generated using [Angular CLI](https://github.com/angular/angula
 
 Ensure you have the following installed on your machine
 
-    git
+git
 
-    node.js
+node.js
 
-    Angular CLI
+Angular CLI
+
+    
+you can install Angular CLI globally using npm:
+
+```
+npm install -g @angular/cli
+```
 
 
 ## Clone the Repository
