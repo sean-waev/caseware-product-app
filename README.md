@@ -79,34 +79,34 @@ Here is the brief rubric for the Assessment guidelines.
 
     - Create a ProductCardComponent that displays product details (name, price, description):
     ```
-    this component is complete in the folder `src/app/product-card`
+    This component is complete in the folder `src/app/product-card`.
     ```
     - Accept a product object via @Input():
     ```
-    product data input is set via @Input() in 'product-list-single-pill.component.ts'
+    Product data input is set via @Input() in 'product-list-single-pill.component.ts'
     
-     on lines 11 & 12 and accepted in 'product-list.component.html' on lines 5 & 6
+     on lines 11 & 12 and accepted in 'product-list.component.html' on lines 5 & 6.
     ```
 
     - Add a button that emits an event (@Output()) when clicked:
     ```
-    the buttonClick function that emits an event (@Output()) is in 
+    The buttonClick function that emits an event (@Output()) is in 
     
     'product-card-component.ts' on line 29 and the output is the 
     
-    string 'message' on line 33
+    string 'message' on line 33.
     ```
 
 3. Service & Data Handling (30 points)
 
     - Create a ProductService that provides product data (hardcoded or from a mock JSON file):
     ```
-    this service is complete in the file `src/app/services/product.service.ts`
+    This service is complete in the file `src/app/services/product.service.ts`.
     ```
 
     - Fetch and display products in a ProductListComponent:
     ```
-    this component is complete in the folder `src/app/product-list`
+    This component is complete in the folder `src/app/product-list`.
     ```
 
     - Use Observable (RxJS) in ProductService for asynchronous data fetching:
@@ -114,7 +114,7 @@ Here is the brief rubric for the Assessment guidelines.
     ```
     Observable (RxJS) is used in the ProductService for 
     
-    asynchronous data fetching in 'product. service.ts' on line 21
+    asynchronous data fetching in 'product. service.ts' on line 21.
     ```
 
 4. Routing & Navigation (30 points)
@@ -126,17 +126,17 @@ Here is the brief rubric for the Assessment guidelines.
     - /products/:id → Displays ProductDetailComponent.
     
     ```
-    these routes can be found in `src/app/app.routes.ts` on lines 7 & 8
+    These routes can be found in `src/app/app.routes.ts` on lines 7 & 8.
     ```
 
     - Clicking a product in ProductListComponent should navigate to /products/:id and display its details:
 
     ```
-    this is complete via navigation in 'product-list.component.html' 
+    This is complete via navigation in 'product-list.component.html' 
     
-    on line 4, the  ngOnInit() in 'product-card-component.ts' on 
+    on line 4, the ngOnInit() in 'product-card-component.ts' on 
     
-    line 21, and getProductById() in 'product.service.ts' on line 25
+    line 21, and getProductById() in 'product.service.ts' on line 25.
     ```
 
 ## Additional Resources
