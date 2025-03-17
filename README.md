@@ -10,11 +10,8 @@ Ensure you have the following installed on your machine:
 
     node.js
 
-    Angular CLI: Install it globally using npm:
+    Angular CLI
 
-    ```
-    npm install -g @angular/cli
-    ```
 
 ## Clone the Repository
 
