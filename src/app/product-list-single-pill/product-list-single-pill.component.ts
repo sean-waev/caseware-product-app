@@ -7,6 +7,7 @@ import { Component, Input } from '@angular/core';
   styleUrl: './product-list-single-pill.component.css'
 })
 export class ProductListSinglePillComponent {
+  //(2. Component & Data Binding) Accept a product object via @Input()
   @Input() productInput: string | undefined;
   @Input() priceInput: number | undefined;
 

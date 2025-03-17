@@ -1,5 +1,6 @@
 <div style="text-align: -webkit-center; margin-top: 10vh;">
     <h2 style="color: blue; font-family: sans-serif;">Produce Items:</h2>
+    <!-- (4. Routing & Navigation) Clicking a product in ProductListComponent should navigate to /products/:id and display its details -->
     <a *ngFor="let product of products" style="text-decoration:none" [routerLink]="['/products', product.id]">
         <app-product-list-single-pill [productInput]="product.Name"
             [priceInput]="product.Price"></app-product-list-single-pill>

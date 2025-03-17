@@ -2,7 +2,39 @@
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.3.
 
-## Development server
+## Install Prerequisites
+
+Ensure you have the following installed on your machine:
+
+    git
+
+    node.js
+
+    Angular CLI: Install it globally using npm:
+
+    ```npm install -g @angular/cli```
+
+## Clone the Repository
+
+Open a terminal or command prompt.
+
+Navigate to the directory where you want to clone the repository.
+
+Run the following command to clone the repository:
+
+```git clone https://github.com/sean-waev/caseware-product-app.git```
+
+## Navigate to the Project Directory
+
+```cd caseware-product-app```
+
+## Install Dependencies
+
+Install the required dependencies using npm:
+
+```npm install```
+
+## Run Development Server
 
 To start a local development server, run:
 
@@ -10,7 +42,7 @@ To start a local development server, run:
 ng serve
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+Once the server is running, open your browser and navigate to `http://localhost:4200/` and there you should see the angular web application.
 
 ## Assignment Rubric
 
@@ -47,7 +79,7 @@ Once the server is running, open your browser and navigate to `http://localhost:
 
     Fetch and display products in a ProductListComponent.
     ```
-    this component is complete in the folder `src/app/product-card`
+    this component is complete in the folder `src/app/product-list`
     ```
 
     Use Observable (RxJS) in ProductService for asynchronous data fetching.
@@ -62,9 +94,10 @@ Once the server is running, open your browser and navigate to `http://localhost:
         /products → Displays ProductListComponent.
 
         /products/:id → Displays ProductDetailComponent.
-        ```
-        this component is complete in the folder `src/app/product-card`
-        ```
+    
+    ```
+    this component is complete in the folder `src/app/product-card`
+    ```
 
     Clicking a product in ProductListComponent should navigate to /products/:id and display its details.
     ```
@@ -72,7 +105,7 @@ Once the server is running, open your browser and navigate to `http://localhost:
     ```
 
 
-## Building
+## Building (Optional)
 
 To build the project run:
 

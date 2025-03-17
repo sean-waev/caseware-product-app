@@ -8,6 +8,7 @@ import { ActivatedRoute } from '@angular/router';
   templateUrl: './product-card.component.html',
   styleUrl: './product-card.component.css',
 })
+//(2. Component & Data Binding) ProductCardComponent that displays product details (name, price, description)
 export class ProductCardComponent implements OnInit {
   product: Product | undefined;
 
@@ -16,14 +17,15 @@ export class ProductCardComponent implements OnInit {
     private productService: ProductService
   ) {}
 
+  //this ngOnInit gets the id from the route and uses it to retrieve the product from the product service
   ngOnInit(): void {
-    const id = +this.route.snapshot.paramMap.get('id')!; // Get the 'id' from the route
+    const id = +this.route.snapshot.paramMap.get('id')!;
     this.productService.getProductById(id).subscribe((product) => {
       this.product = product;
     });
   }
 
-  //
+  //(2. Component & Data Binding) "add to cart" button that emits an event (@Output()) when clicked
   @Output() buttonClick = new EventEmitter<string>();
   message: string = '';
 
@@ -31,9 +33,9 @@ export class ProductCardComponent implements OnInit {
     const message = 'Item added to cart!';
     this.buttonClick.emit(message);
     this.message = message;
-
+   
+    //Timeout to make message disappear after after 5 seconds
     setTimeout(() => {
-      // message times out after 4 seconds
       this.message = '';
     }, 5000);
   }
