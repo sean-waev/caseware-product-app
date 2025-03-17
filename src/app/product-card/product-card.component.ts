@@ -17,7 +17,7 @@ export class ProductCardComponent implements OnInit {
     private productService: ProductService
   ) {}
 
-  //this ngOnInit gets the id from the route and uses it to retrieve the product from the product service
+  //(4. Routing & Navigation) this ngOnInit gets the id from the route and uses it to retrieve the product from the product service
   ngOnInit(): void {
     const id = +this.route.snapshot.paramMap.get('id')!;
     this.productService.getProductById(id).subscribe((product) => {

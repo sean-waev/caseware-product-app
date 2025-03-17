@@ -1,5 +1,13 @@
 # Product App
 
+This is the Angular Developer Technical Assessment Application that displays a list of products, allows users to view detailed information about each product, and includes basic navigation between pages.
+
+Below is brief documentation on how to run the application locally.
+
+There is also a rubric for the Assessment guidelines at the bottom to easily navigate to where each guideline is addressed in the code.
+
+There is also brief documentation in the comments within the code.
+
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.3.
 
 ## Install Prerequisites
@@ -59,73 +67,62 @@ Once the server is running, open your browser and navigate to `http://localhost:
 
 1. Project Setup (10 points)
 
-    Create a new Angular project using Angular CLI (ng new product-app).
+    - Create a new Angular project using Angular CLI (ng new product-app).
 
-    Set up a clean folder structure following best practices.
+    - Set up a clean folder structure following best practices.
 
-    Initialize a Git repository and make an initial commit.
+    - Initialize a Git repository and make an initial commit.
 
 2. Component & Data Binding (30 points)
 
-    Create a ProductCardComponent that displays product details (name, price, description).
+    - Create a ProductCardComponent that displays product details (name, price, description).
     ```
     this component is complete in the folder `src/app/product-card`
     ```
-    Accept a product object via @Input().
+    - Accept a product object via @Input().
     ```
-    this component is complete in the folder `src/app/product-card`
+    product data input is set via @Input() in 'product-list-single-pill.component.ts' on lines 11 & 12 and accepted in 'product-list.component.html' on lines 5 & 6
     ```
 
-    Add a button that emits an event (@Output()) when clicked.
+    - Add a button that emits an event (@Output()) when clicked.
     ```
-    this component is complete in the folder `src/app/product-card`
+    the buttonClick function that emits an event (@Output()) is in 'product-card-component.ts' on line 29 and the output is the string 'message' on line 33
     ```
 
 3. Service & Data Handling (30 points)
 
-    Create a ProductService that provides product data (hardcoded or from a mock JSON file).
+    - Create a ProductService that provides product data (hardcoded or from a mock JSON file).
     ```
-    this component is complete in the folder `src/app/product-card`
+    this service is complete in the file `src/app/services/product.service.ts`
     ```
 
-    Fetch and display products in a ProductListComponent.
+    - Fetch and display products in a ProductListComponent.
     ```
     this component is complete in the folder `src/app/product-list`
     ```
 
-    Use Observable (RxJS) in ProductService for asynchronous data fetching.
+    - Use Observable (RxJS) in ProductService for asynchronous data fetching.
+
     ```
-    this component is complete in the folder `src/app/product-card`
+    Observable (RxJS) is used in the ProductService for asynchronous data fetching in 'product. service.ts' on line 21
     ```
 
 4. Routing & Navigation (30 points)
 
     Set up Angular routing with the following paths:
 
-        /products → Displays ProductListComponent.
+    - /products → Displays ProductListComponent.
 
-        /products/:id → Displays ProductDetailComponent.
+    - /products/:id → Displays ProductDetailComponent.
     
     ```
-    this component is complete in the folder `src/app/product-card`
+    these routes can be found in `src/app/app.routes.ts` on lines 7 & 8
     ```
 
-    Clicking a product in ProductListComponent should navigate to /products/:id and display its details.
+    - Clicking a product in ProductListComponent should navigate to /products/:id and display its details.
     ```
-    this component is complete in the folder `src/app/product-card`
+    this is complete via navigation in 'product-list.component.html' on line 4, the  ngOnInit() in 'product-card-component.ts' on line 21, and getProductById() in 'product.service.ts' on line 25
     ```
-
-
-## Building (Optional)
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
 
 ## Additional Resources
 
