@@ -29,16 +29,31 @@ Once the server is running, open your browser and navigate to `http://localhost:
     this component is complete in the folder `src/app/product-card`
     ```
     Accept a product object via @Input().
+    ```
+    this component is complete in the folder `src/app/product-card`
+    ```
 
     Add a button that emits an event (@Output()) when clicked.
+    ```
+    this component is complete in the folder `src/app/product-card`
+    ```
 
 3. Service & Data Handling (30 points)
 
     Create a ProductService that provides product data (hardcoded or from a mock JSON file).
+    ```
+    this component is complete in the folder `src/app/product-card`
+    ```
 
     Fetch and display products in a ProductListComponent.
+    ```
+    this component is complete in the folder `src/app/product-card`
+    ```
 
     Use Observable (RxJS) in ProductService for asynchronous data fetching.
+    ```
+    this component is complete in the folder `src/app/product-card`
+    ```
 
 4. Routing & Navigation (30 points)
 
@@ -47,8 +62,14 @@ Once the server is running, open your browser and navigate to `http://localhost:
         /products → Displays ProductListComponent.
 
         /products/:id → Displays ProductDetailComponent.
+        ```
+        this component is complete in the folder `src/app/product-card`
+        ```
 
     Clicking a product in ProductListComponent should navigate to /products/:id and display its details.
+    ```
+    this component is complete in the folder `src/app/product-card`
+    ```
 
 
 ## Building
