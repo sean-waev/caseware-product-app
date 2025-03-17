@@ -12,7 +12,9 @@ Ensure you have the following installed on your machine:
 
     Angular CLI: Install it globally using npm:
 
-    ```npm install -g @angular/cli```
+    ```
+    npm install -g @angular/cli
+    ```
 
 ## Clone the Repository
 
@@ -22,17 +24,23 @@ Navigate to the directory where you want to clone the repository.
 
 Run the following command to clone the repository:
 
-```git clone https://github.com/sean-waev/caseware-product-app.git```
+```
+git clone https://github.com/sean-waev/caseware-product-app.git
+```
 
 ## Navigate to the Project Directory
 
-```cd caseware-product-app```
+```
+cd caseware-product-app
+```
 
 ## Install Dependencies
 
 Install the required dependencies using npm:
 
-```npm install```
+```
+npm install
+```
 
 ## Run Development Server
 
