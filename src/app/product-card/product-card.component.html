@@ -1,24 +1,37 @@
 <div style="text-align: -webkit-center; margin-top: 10vh;">
 
     <div class="pill">
-        <div style="display: flex; flex-direction: row; justify-content: space-evenly;">
+        <div
+            style="display: flex; flex-direction: row; justify-content: space-between; margin: 20px;  margin-bottom:0;">
             <div style="display: flex; flex-direction: row; justify-content: space-between;">
-                <p>Name:&nbsp;</p>
-                <p>Apples</p>
+                <p style="font-weight: bold;">Name:&nbsp;</p>
+                <p >{{product?.Name}}</p>
             </div>
             <div style="display: flex; flex-direction: row; justify-content: space-between;">
-                <p>Price:&nbsp;</p>
-                <p>4.99</p>
+                <p style="font-weight: bold;">Price:&nbsp;</p>
+                <p >{{product?.Price}}</p>
             </div>
 
         </div>
-        <div style="display: flex; flex-direction: column; text-align: left; margin-left: 20px;">
-            <p>Description:&nbsp;</p>
-            <p>These are red apples from McDonald Farms</p>
+        <div style="display: flex; flex-direction: column; text-align: left; margin-left: 20px;margin-right: 20px;">
+            <p style="margin: 0;font-weight: bold;">Description:&nbsp;</p>
+            <p class="description">{{product?.Description}}</p>
         </div>
-        <div style="text-align: right; margin-right: 20px; margin-bottom: 20px;">
+        <div style="display: flex; flex-direction: row; justify-content: space-between;">
+            <div style="margin-left: 20px; margin-bottom: 20px;">
 
-            <button >Add to cart</button>
+                <a style="text-decoration:none" href="/products">
+
+                    <button class="pillButton">Back to list</button>
+                </a>
+            </div>
+            <div style=" margin-right: 20px; margin-bottom: 20px;">
+
+                <button class="pillButton" (click)="onClick()">Add to cart</button>
+            </div>
         </div>
+
+
     </div>
 </div>
+<p style="text-align: center;">{{ message }}</p>

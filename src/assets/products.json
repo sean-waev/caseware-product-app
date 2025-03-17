@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "Name": "Apples",
+    "Price": 2.99,
+    "Description": "These are red apples from McDonald Farms."
+  },
+  {
+    "id": 2,
+    "Name": "Bananas",
+    "Price": 4.99,
+    "Description": "These are ripe bananas from Savanna Bananas."
+  },
+  {
+    "id": 3,
+    "Name": "Oranges",
+    "Price": 3.99,
+    "Description": "These are juicy oranges from Tropicana."
+  },
+  {
+    "id": 4,
+    "Name": "Grapes",
+    "Price": 3.99,
+    "Description": "These are green grapes from Tarzan Farms."
+  },
+  {
+    "id": 5,
+    "Name": "Lemons",
+    "Price": 5.99,
+    "Description": "These are sour lemons from Leo's Farm."
+  },
+  {
+    "id": 6,
+    "Name": "Tomatoes",
+    "Price": 6.99,
+    "Description": "These are red tomatoes from Pizza Plains."
+  }
+]
