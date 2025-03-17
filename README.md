@@ -1,4 +1,4 @@
-# ProductApp
+# Product App
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.3.
 
@@ -25,9 +25,9 @@ Once the server is running, open your browser and navigate to `http://localhost:
 2. Component & Data Binding (30 points)
 
     Create a ProductCardComponent that displays product details (name, price, description).
-```
-this component is complete in the folder `src/app/product-card`
-```
+    ```
+    this component is complete in the folder `src/app/product-card`
+    ```
     Accept a product object via @Input().
 
     Add a button that emits an event (@Output()) when clicked.
